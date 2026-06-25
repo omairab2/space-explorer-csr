@@ -2,7 +2,7 @@
 
 A client-side rendered Angular gallery for NASA's **Astronomy Picture of the Day (APOD)**.
 
-This is the **CSR variant** of [space-explorer](https://github.com/omairab2/space-explorer)
+This is the **CSR variant** of [space-explorer-ssr](https://github.com/omairab2/space-explorer-ssr)
 (which uses SSR + a server-side API proxy). Same UI and architecture, rendered entirely in
 the browser.
 
@@ -57,4 +57,4 @@ which means **a deployed build embeds the key in the JavaScript bundle** (extrac
 `environment.ts` is gitignored so the key is never in the repo, but it is not secret at runtime.
 
 That is acceptable for a free, rate-limited NASA key / demo. If you need the key kept server-side,
-use the SSR variant: **[space-explorer](https://github.com/omairab2/space-explorer)**.
+use the SSR variant: **[space-explorer-ssr](https://github.com/omairab2/space-explorer-ssr)**.
